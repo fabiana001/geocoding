@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><blocchi-impresa>
+    <dati-identificativi c-fiscale="c8700e741d1bb8b2c74fa8b129a7576670a90dc33a8e31915548fe804214817f" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" dt-atto-costituzione="29/10/1999" dt-iscrizione-ri="29/11/1999" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <tipi-procedure-concorsuali>
+            <tipo-procedura-concorsuale c-tipo="SL">SCIOGLIMENTO E LIQUIDAZIONE</tipo-procedura-concorsuale></tipi-procedure-concorsuali>
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70122" comune="BARI" n-civico="45" provincia="BA" toponimo="VIA" via="S.FRANCESCO D'ASSISI"/></dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="06/03/2000">
+        <attivita-esercitata>SOMMINISTRAZIONE AL PUBBLICO DI ALIMENTI E BEVANDE.</attivita-esercitata>
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Bar e altri esercizi simili senza cucina" c-attivita="56.3" c-importanza="P" dt-inizio="06/03/2000" importanza="primaria Registro Imprese"/></classificazioni-ateco></info-attivita>
+    <albi-ruoli-licenze-ridotti>
+        <licenze>
+            <licenza>
+                <licenza-autorizzazione autorita-rilascio="COMUNE" c-autorita-rilascio="AC" dt-iscrizione="06/03/2000" n="1957"/></licenza></licenze></albi-ruoli-licenze-ridotti>
+    <persone-sede>
+        <persona f-rappresentante-ri="S" progressivo="3">
+            <persona-fisica c-fiscale="87b94105b983c77a2bc1a403a62810e4bc7ee28db67451c06c09c3307c5c13c9">
+                <estremi-nascita/></persona-fisica>
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica></cariche></atto-conferimento-cariche></atti-conferimento-cariche></persona>
+        <persona progressivo="4">
+            <persona-fisica c-fiscale="48fea5425acbd70166bbf8bbffc79e8f009fc98a9058c17b9d5b9be18cd5f3a6">
+                <estremi-nascita/></persona-fisica>
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica></cariche></atto-conferimento-cariche></atti-conferimento-cariche></persona>
+        <persona progressivo="6">
+            <persona-fisica c-fiscale="283ff13bdc9df98631c9839aff1e773d34e34dd951ca89ab0f03fbb20212e4a9">
+                <estremi-nascita/></persona-fisica>
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica></cariche></atto-conferimento-cariche></atti-conferimento-cariche></persona></persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="07/11/2001" progressivo="1" tipo="UNITA' LOCALE">
+            <sotto-tipi>
+                <sotto-tipo c="RST">RISTORANTE</sotto-tipo></sotto-tipi>
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="119" provincia="BA" toponimo="VIA" via="CAIROLI"/>
+            <attivita-esercitata>ESERCIZIO DELLA RISTORAZIONE  - BAR.</attivita-esercitata>
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Ristorazione con somministrazione" c-attivita="56.10.11" c-importanza="P" dt-inizio="07/11/2001" importanza="primaria Registro Imprese"/>
+
+                <classificazione-ateco attivita="Bar e altri esercizi simili senza cucina" c-attivita="56.3" c-importanza="S" dt-inizio="07/11/2001" importanza="secondaria Registro Imprese"/></classificazioni-ateco></localizzazione></localizzazioni>
+    <elenco-soci dt-soci-titolari-al="16/03/2017">
+        <riquadri>
+            <riquadro>
+                <composizione-quote c-valuta="EU" valore-nominale="2.065,84" valuta="EURO"/>
+                <titolari>
+                    <titolare>
+                        <anagrafica-titolare c-fiscale="8949690122db12a7abbbbf4dca570d85a36c9b26bb2243f0183a9cce8a5eaa65"/>
+                        <diritto-partecipazione c-tipo="01" tipo="PROPRIETA'"/></titolare></titolari></riquadro>
+
+            <riquadro>
+                <composizione-quote c-valuta="EU" valore-nominale="2.065,83" valuta="EURO"/>
+                <titolari>
+                    <titolare>
+                        <anagrafica-titolare c-fiscale="bc183abfa4b34764fe40d30477cbd22e1abafa5b1b68f13fa2b2b96773f4e6b5"/>
+                        <diritto-partecipazione c-tipo="01" tipo="PROPRIETA'"/></titolare></titolari></riquadro>
+
+            <riquadro>
+                <composizione-quote c-valuta="EU" valore-nominale="2.065,83" valuta="EURO"/>
+                <titolari>
+                    <titolare>
+                        <anagrafica-titolare c-fiscale="3ee254a4e770ac91457f0b5a222cfbd86de7b9293804aa8245f53e79f239e257"/>
+                        <diritto-partecipazione c-tipo="01" tipo="PROPRIETA'"/></titolare></titolari></riquadro>
+
+            <riquadro>
+                <composizione-quote c-valuta="EU" valore-nominale="2.065,83" valuta="EURO"/>
+                <titolari>
+                    <titolare>
+                        <anagrafica-titolare c-fiscale="48fea5425acbd70166bbf8bbffc79e8f009fc98a9058c17b9d5b9be18cd5f3a6"/>
+                        <diritto-partecipazione c-tipo="01" tipo="PROPRIETA'"/></titolare></titolari></riquadro>
+
+            <riquadro>
+                <composizione-quote c-valuta="EU" valore-nominale="2.065,83" valuta="EURO"/>
+                <titolari>
+                    <titolare>
+                        <anagrafica-titolare c-fiscale="283ff13bdc9df98631c9839aff1e773d34e34dd951ca89ab0f03fbb20212e4a9"/>
+                        <diritto-partecipazione c-tipo="01" tipo="PROPRIETA'"/></titolare></titolari></riquadro></riquadri></elenco-soci>
+    <info-statuto>
+        <durata-societa dt-termine="25/10/1999">
+            <scadenza-esercizi dt-primo-esercizio="31/12/1999" esercizi-successivi="31/12"/></durata-societa></info-statuto>
+    <amministrazione-controllo>
+        <sistema-amministrazione c="R2">AMMINISTRAZIONE  PLURIPERSONALE COLLEGIALE</sistema-amministrazione>
+
+        <forme-amministrative>
+            <forma-amministrativa c="CA" f-in-carica="S" f-organo-controllo="N" n-max-amministratori="5" n-min-amministratori="2">CONSIGLIO DI AMMINISTRAZIONE</forma-amministrativa>
+
+
+            <forma-amministrativa c="AU" f-in-carica="N" f-organo-controllo="N">AMMINISTRATORE UNICO</forma-amministrativa></forme-amministrative></amministrazione-controllo>
+    <info-patrimoniali-finanziarie>
+        <capitale-sociale c-valuta="EU" valuta="EURO">
+            <deliberato ammontare="10.329,16"/>
+            <sottoscritto ammontare="10.329,16"/>
+            <versato ammontare="3.098,75"/></capitale-sociale></info-patrimoniali-finanziarie>
+    <scritta-pco-s f-presenza-pco-s="N"/>
+</blocchi-impresa>
