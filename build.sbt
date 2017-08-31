@@ -22,9 +22,7 @@ val commonDependencies = Seq(
   "org.elasticsearch.client" % "rest" % "5.5.2",
   "org.json4s" %% "json4s-jackson" % "3.5.3",
   "org.specs2" %% "specs2-core" % "3.9.1" % "test",
-
-  "com.whisk" %% "docker-testkit-scalatest" % "0.9.0" % "test",
-  "com.whisk" %% "docker-testkit-impl-spotify" % "0.9.0" % "test"
+  "com.github.docker-java" % "docker-java" % "3.0.13"// % "test"
 )
 
 val scalaxbDependencies = Seq(
