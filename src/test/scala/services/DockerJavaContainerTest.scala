@@ -1,8 +1,7 @@
 package services
 
 import com.github.dockerjava.api.DockerClient
-import com.github.dockerjava.core.{DefaultDockerClientConfig, DockerClientBuilder}
-import com.github.dockerjava.jaxrs.JerseyDockerCmdExecFactory
+import com.github.dockerjava.core.DockerClientBuilder
 import org.specs2.mutable._
 import org.specs2.specification.BeforeAfterAll
 

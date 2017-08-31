@@ -22,10 +22,8 @@ class DockerContainerTest extends Specification with BeforeAfterAll {
       println(containerId)
 
       //wait elasticsearch service is up
-      println(s"Before ${System.currentTimeMillis()}")
       Thread.sleep(40000L)
 
-      println(s"After ${System.currentTimeMillis()}")
       val restClient = RestClient.builder(
         new HttpHost("localhost", exposedPort, "http")
       ).build()

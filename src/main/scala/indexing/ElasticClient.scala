@@ -31,20 +31,6 @@ class ElasticClient(host:String = "localhost", port: Int= 9200) {
     restClient.close()
   }
 
-//  def init() = {
-//    val nodeBuilder = org.elasticsearch.node.NodeBuilder.nodeBuilder()
-//    val httpPort = 9200
-//    nodeBuilder.settings()
-//      //.put("path.plugins", pluginDir)
-//      //.put("path.data", dataPath.toString())
-//      .put("http.port", httpPort)
-//      .put("transport.tcp.port", 9300)
-//      .put("discovery.zen.ping.multicast.enabled", "false");
-//    //.put("discovery.zen.ping.unicast.hosts", host);
-//
-//    //node = nodeBuilder.clusterName("elasticsearch").client(true).node();
-//    val node = nodeBuilder.clusterName("elasticsearch").node()
-//  }
 
 
   def addDocument(blocchiImpresa: Blocchiu45impresa, idDocument: String): Try[Int] = Try {
