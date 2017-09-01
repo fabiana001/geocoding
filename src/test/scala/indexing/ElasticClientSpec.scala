@@ -1,10 +1,12 @@
 package indexing
 
+import java.net.URL
+
 import generated.Blocchiu45impresa
 import org.specs2.mutable.Specification
 import services.DockerContainerTest
 
-import scala.io.Source
+import scala.io.{BufferedSource, Source}
 import scala.util.Success
 
 /**
@@ -20,7 +22,7 @@ class ElasticClientSpec  extends DockerContainerTest {
 
       statusCode must beEqualTo(200)
 
-      val string = Source.fromResource("pippo_google.xml").getLines.mkString
+      val string = scala.io.Source.fromInputStream(getClass.getResourceAsStream("/pippo_google.xml")).mkString
       val xml = scala.xml.XML.loadString(string)
       val data =  scalaxb.fromXML[Blocchiu45impresa]( xml)
 

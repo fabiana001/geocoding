@@ -32,7 +32,7 @@ class ScalaXbSpec extends Specification {
 
     "deserialize XML from files" in {
 
-      val string = Source.fromResource("example.xml" ).getLines.mkString
+      val string = scala.io.Source.fromInputStream(getClass.getResourceAsStream("example.xml")).mkString
       val xml = scala.xml.XML.loadString(string)
       val data =  scalaxb.fromXML[Blocchiu45impresa]( xml)
 

@@ -16,14 +16,12 @@ scalacOptions ++= Seq(
 
 val commonDependencies = Seq(
   "com.typesafe" % "config" % "1.3.1",
-  "com.typesafe.play" %% "play-json" % "2.6.3", //exclude("joda-time", "joda-time"),
-  "org.joda" % "joda-convert" % "1.8.3",
   "org.slf4j" % "slf4j-api" % "1.7.5",
   "org.slf4j" % "slf4j-log4j12" % "1.7.5",
   "org.elasticsearch.client" % "rest" % "5.5.2",
   "org.json4s" %% "json4s-jackson" % "3.5.3",
   "org.specs2" %% "specs2-core" % "3.9.1" % "test",
-  "com.github.docker-java" % "docker-java" % "3.0.13"// % "test"
+  "com.github.docker-java" % "docker-java" % "3.0.13" % "test"
 )
 
 val scalaxbDependencies = Seq(
@@ -37,11 +35,11 @@ lazy val root = (project in file(".")).
   .settings(
     name := "geocoding",
     organization := "it.teamdigitale",
-    scalaVersion := "2.11.8",
+    scalaVersion := "2.11.9",
     version := "1.0",
     libraryDependencies ++= commonDependencies ++ scalaxbDependencies)
   .settings(
-    //scalaxbXsdSource in (Compile, scalaxb) := file("/src/main/scala/xsd/BlocchiImpresa.xsd")
+
     scalaxbPackageName in (Compile, scalaxb) := "generated",
     scalaxbDispatchVersion in (Compile, scalaxb) := "0.13.1",
     //output dir, generate this directory before to run sbt clean compile

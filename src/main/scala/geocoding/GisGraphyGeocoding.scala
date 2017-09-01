@@ -2,8 +2,8 @@ package geocoding
 import geocoding.GeocodingExceptions.{TooMuchRequestException, WrongCityExeption}
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import play.api.libs.json.{JsNumber, JsString, Json}
-
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 import scala.util.{Failure, Success, Try}
 
 /**
@@ -33,13 +33,15 @@ object GisGraphyGeocoding extends Geocoding {
   }
 
   private def extractCoordinates(response: String, city: String) = {
-    val json = Json.parse(response)
-    val res = json \ "result" \ 0
-    val extractedCity = (res \ "state").getOrElse(JsString(" ")).as[String]
-    val lat = (res \ "lat").getOrElse(JsNumber(-1)).as[Double]
-    val lng = (res \ "lng").getOrElse(JsNumber(-1)).as[Double]
+    implicit val formats = DefaultFormats
 
-    logger.info(res.get.toString())
+    val json: JValue = parse(response)
+    val res = (json \ "result")(0)
+    val extractedCity = (res \ "state").extract[String]
+    val lat = (res \ "lat").toOption.getOrElse(JDouble(-1)).extract[Double]
+    val lng = (res \ "lng").toOption.getOrElse(JDouble(-1)).extract[Double]
+
+    logger.info(response)
     if(lat != -1 && lng != -1) {
       if (checkCity(extractedCity, city))
         Success((lat, lng))

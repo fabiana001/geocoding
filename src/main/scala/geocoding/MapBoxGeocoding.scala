@@ -2,9 +2,9 @@ package geocoding
 
 import java.math.BigInteger
 import java.net.{HttpURLConnection, URL}
-
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 import com.typesafe.config.ConfigFactory
-import play.api.libs.json._
 
 import scala.util.{Failure, Success, Try}
 
@@ -50,14 +50,15 @@ object MapBoxGeocoding extends Geocoding{
   }
 
   private def extractCoordinates(response: String, inputCap: Int): Try[(Double, Double)] = {
-    val json = Json.parse(response)
-    val res = json \ "features" \ 0 \"geometry" \ "coordinates"
-    val relevance = (json \ "features" \ 0 \ "relevance").getOrElse(JsNumber(-1)).as[Double]
-    val extractedCap = (json \ "context" \ "text").getOrElse(JsNumber(-1)).as[Int]
+    implicit val formats = DefaultFormats
+    val json = parse(response)
+    val res = (json \ "features") (0) \"geometry" \ "coordinates"
+    val relevance = ((json \ "features") (0) \ "relevance").toOption.getOrElse(JDouble(-1)).extract[Double]
+    val extractedCap = (json \ "context" \ "text").toOption.getOrElse(JDouble(-1)).extract[Double]
 
     if(relevance > 0.60) {
-      val lat = (res \ 1).get.as[Double]
-      val lon = (res \ 0).get.as[Double]
+      val lat = res (1).extract[Double]
+      val lon = res (0).extract[Double]
       Success((lat, lon))
     }
     else Failure( new RuntimeException("Address not found"))

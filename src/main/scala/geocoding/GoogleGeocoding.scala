@@ -2,8 +2,11 @@ package geocoding
 
 import java.math.BigInteger
 import java.net.{HttpURLConnection, URL}
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 import com.typesafe.config.ConfigFactory
-import play.api.libs.json.Json
+import org.json4s.DefaultFormats
+//import play.api.libs.json.Json
 
 import scala.util.{Failure, Try}
 
@@ -50,12 +53,13 @@ object GoogleGeocoding extends Geocoding{
   }
 
   private def extractCoordinates(response: String) = {
-    val json = Json.parse(response)
-    val status = (json \ "status").get.as[String]
+    implicit val formats = DefaultFormats
+    val json = parse(response)
+    val status = (json \ "status").extract[String]
     if (status == "OK") Try {
-      val res = json \ "results" \ 0 \ "geometry" \ "location"
-      val lat = (res \ "lat").get.as[Double]
-      val lon = (res \ "lng").get.as[Double]
+      val res = (json \ "results") (0) \ "geometry" \ "location"
+      val lat = (res \ "lat").toOption.getOrElse(JDouble(-1)).extract[Double]
+      val lon = (res \ "lng").toOption.getOrElse(JDouble(-1)).extract[Double]
       (lat, lon)
     }
     else Failure( new RuntimeException(s"Error request $status"))

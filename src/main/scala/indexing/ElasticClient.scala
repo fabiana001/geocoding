@@ -11,7 +11,7 @@ import org.apache.http.nio.entity.NStringEntity
 import org.apache.http.util.EntityUtils
 import org.elasticsearch.client.RestClient
 import org.json4s.DefaultFormats
-import play.libs.Json
+//import play.libs.Json
 
 import collection.JavaConverters._
 import scala.Option
@@ -27,11 +27,9 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
    // new HttpHost("localhost", 9201, "http")
   ).build()
 
-
   def closeClient() = {
     restClient.close()
   }
-
 
   def addDocument(blocchiImpresa: Blocchiu45impresa, idDocument: String): Try[Int] = Try {
     implicit val formats = DefaultFormats
@@ -46,23 +44,6 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
       Map.empty[String,String].asJava,
       e)
     indexResponse.getStatusLine.getStatusCode
-  }
-
-  private def sendJson() = {
-
-//    val client = HttpClientBuilder.create().build()
-//    val request = new HttpPost("http://solrHost.com:8983/solr/update/json")
-//    val input = new StringEntity("{\"firstName\":\"Bob\",\"lastName\":\"Williams\"}")
-//    input.setContentType("application/json")
-//    request.setEntity(input)
-//    val response = client.execute(request)
-//    val rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-//
-//    val line = "";
-//    while ((line = rd.readLine()) != null) {
-//      System.out.println(line);
-//    }
-
   }
 
   def convertToSolrDocument(blocchiImpresa: Blocchiu45impresa, idDocument: String): Document = {
@@ -159,8 +140,8 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
 
   }
 
-
 }
+
 object ElasticClient {
 
   case class SedeLegale(via: String, location: Option[Location])
@@ -176,7 +157,4 @@ object ElasticClient {
                        codiciAteco: Seq[CodiceAteco])
 
   case class Document(id: String, cf: String, sedeLegale: SedeLegale, altreSedi: Seq[AltraSede])
-
-
-
 }
