@@ -16,7 +16,8 @@ scalacOptions ++= Seq(
 
 val commonDependencies = Seq(
   "com.typesafe" % "config" % "1.3.1",
-  "com.typesafe.play" %% "play" % "2.6.2",
+  "com.typesafe.play" %% "play-json" % "2.6.3", //exclude("joda-time", "joda-time"),
+  "org.joda" % "joda-convert" % "1.8.3",
   "org.slf4j" % "slf4j-api" % "1.7.5",
   "org.slf4j" % "slf4j-log4j12" % "1.7.5",
   "org.elasticsearch.client" % "rest" % "5.5.2",
@@ -36,17 +37,13 @@ lazy val root = (project in file(".")).
   .settings(
     name := "geocoding",
     organization := "it.teamdigitale",
-    scalaVersion := "2.12.0",
+    scalaVersion := "2.11.8",
     version := "1.0",
     libraryDependencies ++= commonDependencies ++ scalaxbDependencies)
-    .settings(
-    //sbt coname := "geocoding",
-    //libraryDependencies ++= commonDependencies ++ scalaxbDependencies,
+  .settings(
+    //scalaxbXsdSource in (Compile, scalaxb) := file("/src/main/scala/xsd/BlocchiImpresa.xsd")
     scalaxbPackageName in (Compile, scalaxb) := "generated",
-    //scalaxbAutoPackages in (Compile, scalaxb) := true,
     scalaxbDispatchVersion in (Compile, scalaxb) := "0.13.1",
-    scalaxbXsdSource in (Compile, scalaxb) := file("/src/main/scala/xsd/BlocchiImpresa.xsd"),
-    sourceManaged in (Compile, scalaxb) := file("src/main/scala/xsd")
-    //sourceManaged in (Compile, scalaxb) := (sourceDirectory in Compile).value / "xsd"
-
-    )
+    //output dir, generate this directory before to run sbt clean compile
+    sourceManaged in (Compile, scalaxb) := (sourceDirectory in Compile).value / "sbt-scalaxb"
+  )
