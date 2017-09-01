@@ -3,10 +3,12 @@ package services
 import java.util.{Collections, UUID}
 
 import org.apache.http.HttpHost
+import org.apache.http.nio.entity.NStringEntity
 import org.apache.http.util.EntityUtils
 import org.elasticsearch.client.{Response, RestClient}
 import org.specs2.mutable._
 import org.specs2.specification.BeforeAfterAll
+import collection.JavaConverters._
 
 /**
   * Created by fabiana on 30/08/17.
@@ -20,9 +22,6 @@ class DockerContainerTest extends Specification with BeforeAfterAll {
     "execute correctly elasticsearch" in {
 
       println(containerId)
-
-      //wait elasticsearch service is up
-      Thread.sleep(40000L)
 
       val restClient = RestClient.builder(
         new HttpHost("localhost", exposedPort, "http")
@@ -42,19 +41,28 @@ class DockerContainerTest extends Specification with BeforeAfterAll {
 
 
   override def beforeAll(): Unit = {
+
     containerId = DockerContainer.builder()
-      //.withImage("docker.elastic.co/elasticsearch/elasticsearch:5.4.1")
+      //.withImage("docker.elastic.co/elasticsearch/elasticsearch:5.5.2")
       .withImage("elasticsearch:latest")
       //for test use unconvetional ports
       .withPort(s"$exposedPort/tcp", "9200/tcp")
       //.withEnv("http.host", "0.0.0.0")
       .withEnv("network.host", "0.0.0.0")
       .withEnv("transport.host", "127.0.0.1")
+      .withEnv("index.mapper.dynamic", "true")
       .withName("TEST-" + UUID.randomUUID())
       .run()
+
+    //wait elasticsearch service is up
+    Thread.sleep(40000L)
+
   }
 
   override def afterAll(): Unit = {
-    DockerContainer.builder().withId(containerId).clean()
+
+    //DockerContainer.builder().withId(containerId).clean()
   }
+
+
 }
