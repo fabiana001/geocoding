@@ -50,7 +50,7 @@ class DockerContainerTest extends Specification with BeforeAfterAll {
       //.withEnv("http.host", "0.0.0.0")
       .withEnv("network.host", "0.0.0.0")
       .withEnv("transport.host", "127.0.0.1")
-      .withEnv("index.mapper.dynamic", "true")
+      //.withEnv("index.mapper.dynamic", "true")
       .withName("TEST-" + UUID.randomUUID())
       .run()
 

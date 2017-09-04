@@ -20,7 +20,7 @@ import scala.util.Try
 /**
   * Created by fabiana on 24/08/17.
   */
-class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: String = "/test_type/test_index") {
+class ElasticClient(host:String = "localhost", port: Int= 9200, esIndex: String = "test_index", esType: String = "test_type") {
 
   val restClient = RestClient.builder(
     new HttpHost(host, port, "http")
@@ -36,11 +36,14 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
     val doc = write(convertToSolrDocument(blocchiImpresa, idDocument))
 
     val e = new NStringEntity( doc, ContentType.APPLICATION_JSON)
+
+    println(e)
+
     val documentId = 1
 
     val indexResponse = restClient.performRequest(
       "PUT",
-      s"$indexType/$documentId",
+      s"/$esIndex/$esType/$documentId",
       Map.empty[String,String].asJava,
       e)
     indexResponse.getStatusLine.getStatusCode
@@ -84,14 +87,18 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
       s"${p.toponimo.getOrElse("")} ${p.via.getOrElse("")} ${p.nu45civico.getOrElse("")} ${p.comune.getOrElse("")} ${p.provincia.getOrElse("")} ${p.cap.getOrElse("")} ${p.stato.getOrElse("")}"
   }
 
-  def putMapping: Int = {
+  /**
+    * Mapping is the process of defining how a document, and the fields it contains, are stored and indexed in *index*
+    * @return http request status code
+    */
+  def putMapping(): Int = {
 
-    val query = """{
+    val query = s"""{
    "settings" : {
       "number_of_shards" : 1 },
 
    "mappings":{
-      "test_type":{
+      "${esType}":{
          "properties":{
             "id":{
                "type":"text"
@@ -125,7 +132,15 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
                      "type":"text"
                   },
                   "codiciAteco":{
-                     "type":"text"
+                     "type":"nested",
+                     "properties" :  {
+                       "codice" :{
+                           "type": "text"
+
+                       },
+                       "priorita":{
+                           "type" : "text"}
+                     }
                   }
                }
             }
@@ -135,8 +150,36 @@ class ElasticClient(host:String = "localhost", port: Int= 9200, indexType: Strin
 }"""
 
     val entity = new NStringEntity(query, ContentType.APPLICATION_JSON)
-    val request = restClient.performRequest("PUT", "test_index",  Map.empty[String,String].asJava, entity)
+    val request = restClient.performRequest("PUT", s"/$esIndex",  Map.empty[String,String].asJava, entity)
     request.getStatusLine.getStatusCode
+
+  }
+
+  def query() = {
+    val query =
+      s"""{
+	"query": {
+		"nested": {
+			"path": "sedeLegale",
+			"query": {
+				"bool": {
+					"must": {
+						"match_all": {}
+					},
+					"filter": {
+						"geo_distance": {
+							"distance": "2km",
+							"sedeLegale.location": {
+								"lat": 41.1262519,
+								"lon": 16.8629509
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}""".stripMargin
 
   }
 
