@@ -1,0 +1,23 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="be9e2a00fe98763335bc439f10b6a51f9adbc91fb7126711782696072109963c" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70126" comune="BARI" n-civico="11" provincia="BA" via="MAGNA GRECIA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="28/12/1977">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Laboratori di analisi cliniche, laboratori radiografici ed altri centri di diagnostica per immagini" c-attivita="86.90.1" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

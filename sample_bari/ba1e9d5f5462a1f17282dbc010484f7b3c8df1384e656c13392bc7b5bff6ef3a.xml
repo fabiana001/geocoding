@@ -1,0 +1,32 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="ba1e9d5f5462a1f17282dbc010484f7b3c8df1384e656c13392bc7b5bff6ef3a" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70121" comune="BARI" n-civico="135" provincia="BA" via="ARGIRO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="01/11/1996">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="METALLURGIA" c-attivita="24" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Fabbricazione di prodotti in calcestruzzo per l'edilizia" c-attivita="23.61" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Elaborazione dati" c-attivita="63.11.1" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="23">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="11/06/2007" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="027" c-toponimo="CNT" cap="74100" comune="TARANTO" frazione="BELLAVISTA" provincia="TA" via="BELLAVISTA" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Costruzione di edifici residenziali e non residenziali" c-attivita="41.2" c-importanza="P" dt-inizio="11/06/2007" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

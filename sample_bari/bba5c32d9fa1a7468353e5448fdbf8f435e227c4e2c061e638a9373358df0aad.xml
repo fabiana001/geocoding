@@ -1,0 +1,22 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bba5c32d9fa1a7468353e5448fdbf8f435e227c4e2c061e638a9373358df0aad" c-fonte="RI" descrizione-tipo-impresa="Altra forma" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="AL" tipo-soggetto="I">
+        <forma-giuridica c="DI">IMPRESA INDIVIDUALE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VLE" cap="70125" comune="BARI" n-civico="24" provincia="BA" via="DELLA REPUBBLICA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="01/07/1992">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Bar e altri esercizi simili senza cucina" c-attivita="56.3" c-importanza="P" dt-inizio="01/07/1992" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="TIT">TITOLARE FIRMATARIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

@@ -20,6 +20,7 @@ val commonDependencies = Seq(
   "org.slf4j" % "slf4j-log4j12" % "1.7.5",
   "org.elasticsearch.client" % "rest" % "5.5.2",
   "org.json4s" %% "json4s-jackson" % "3.5.3",
+  "com.sparkjava" % "spark-core" % "2.6.0",
   "org.specs2" %% "specs2-core" % "3.9.1" % "test",
   "com.github.docker-java" % "docker-java" % "3.0.13" % "test"
 )

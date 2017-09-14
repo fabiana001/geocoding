@@ -13,6 +13,8 @@ import scala.util.{Failure, Success, Try}
   */
 object MapBoxGeocoding extends Geocoding{
 
+  val delay = 6500
+
   val mapboxAccessToken = ConfigFactory.load().getString("geocoding.mapboxAccessToken")
 
   override def geocode(toponimo: String,

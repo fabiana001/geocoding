@@ -1,0 +1,37 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b814e8249e53d9028e7beb2e7c4a85f0131bfd3772e900557c9e2a3e802d707d" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VLE" cap="70124" comune="BARI" n-civico="9/A-B" provincia="BA" via="SALANDRA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="23/10/1996">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Ristorazione con somministrazione" c-attivita="56.10.11" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="23/10/1996" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VLE" cap="70100" comune="BARI" n-civico="9/A-B" provincia="BA" via="SALANDRA" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Ristorazione con somministrazione" c-attivita="56.10.11" c-importanza="P" dt-inizio="23/10/1996" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/06/1998" progressivo="2" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70124" comune="BARI" n-civico="9/A" provincia="BA" via="VITO DI TULLIO" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Ristorazione con somministrazione" c-attivita="56.10.11" c-importanza="I" importanza="prevalente svolta dall'Impresa" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

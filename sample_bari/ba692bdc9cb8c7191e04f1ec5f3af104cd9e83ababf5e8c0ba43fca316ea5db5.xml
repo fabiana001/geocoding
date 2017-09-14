@@ -1,0 +1,32 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="ba692bdc9cb8c7191e04f1ec5f3af104cd9e83ababf5e8c0ba43fca316ea5db5" c-fonte="RI" descrizione-tipo-impresa="Societa' di persone" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SP" tipo-soggetto="I">
+        <forma-giuridica c="AS">SOCIETA' IN ACCOMANDITA SEMPLICE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70122" comune="BARI" n-civico="201" provincia="BA" via="A. GIMMA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="01/01/1987">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="ASSICURAZIONI, RIASSICURAZIONI E FONDI PENSIONE (ESCLUSE LE ASSICURAZIONI SOCIALI OBBLIGATORIE)" c-attivita="65" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOR">SOCIO ACCOMANDATARIO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOC">SOCIO ACCOMANDANTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

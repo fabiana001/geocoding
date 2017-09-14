@@ -1,0 +1,56 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bd8280cf0c38e5aa3f7dd918da037d6d20c95ba0e55f74c24cc5d0043327c9b7" c-fonte="RI" descrizione-tipo-impresa="Societa' di persone" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SP" tipo-soggetto="I">
+        <forma-giuridica c="SN">SOCIETA' IN NOME COLLETTIVO</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70124" comune="BARI" n-civico="258-260" provincia="BA" via="SCIPIONE L AFRICANO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="30/05/1967">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Commercio al dettaglio di strumenti musicali e spartiti" c-attivita="47.59.6" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Fabbricazione di mobili per uso medico, apparecchi medicali, di materiale medico-chirurgico e veterinario, di apparecchi e strumenti per odontoiatria (incluse parti staccate e accessori)" c-attivita="32.50.1" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio all'ingrosso di articoli medicali ed ortopedici" c-attivita="46.46.3" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio al dettaglio di altri prodotti in esercizi specializzati" c-attivita="47.7" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMM">AMMINISTRATORE</carica>
+                        <carica c-carica="COM">SOCIO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMM">AMMINISTRATORE</carica>
+                        <carica c-carica="COM">SOCIO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="COM">SOCIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="4">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="COM">SOCIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

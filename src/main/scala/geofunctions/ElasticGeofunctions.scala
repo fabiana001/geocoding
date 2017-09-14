@@ -17,13 +17,13 @@ class ElasticGeofunctions(host:String = "localhost", port: Int= 9200, esIndex: S
 
 
 
-  private def getNeighborsGroupByAteco(lat: Double, lon: Double, distance: Int = 1200): ( Int, Seq[(String, Int)]) = {
+  private def getNeighborsGroupByAteco(lat: Double, lon: Double, distance: Int = 1200, sedeLegale: Boolean = false): ( Int, Seq[(String, Int)]) = {
     //return the number of place neighbors grouped by Ateco code (we are consigering only the first 2 values, e.g. 56.10)
     val query = s"""{
    "size" : 0,
    "query":{
-      "match_all": {
-
+      "match": {
+         "isSedeLegale" : $sedeLegale
       }
    },
    "aggs":{
@@ -63,13 +63,15 @@ class ElasticGeofunctions(host:String = "localhost", port: Int= 9200, esIndex: S
     (total, res)
   }
 
-  private def getNeighbors(lat: Double, lon: Double, distance: Int = 1200): Int = {
+  private def getNeighbors(lat: Double, lon: Double, distance: Int = 1200, sedeLegale: Boolean = false): Int = {
     val query = s"""{
     "size":  0,
     "query": {
         "bool" : {
             "must" : {
-                "match_all" : {}
+                "match": {
+                   "isSedeLegale" : $sedeLegale
+                         }
             },
             "filter" : {
                 "geo_distance" : {
@@ -93,12 +95,14 @@ class ElasticGeofunctions(host:String = "localhost", port: Int= 9200, esIndex: S
     res
   }
 
-  private def getNeighborsWithPoints(lat: Double, lon: Double, distance: Int = 1200): (Int, Seq[String]) = {
+  def getNeighborsWithPoints(lat: Double, lon: Double, distance: Int = 1200, sedeLegale: Boolean = false): String = {
     val query = s"""{
     "query": {
         "bool" : {
             "must" : {
-                "match_all" : {}
+                "match": {
+                   "isSedeLegale" : $sedeLegale
+                   }
             },
             "filter" : {
                 "geo_distance" : {
@@ -117,26 +121,33 @@ class ElasticGeofunctions(host:String = "localhost", port: Int= 9200, esIndex: S
 
     val total = (json \ "hits" \ "total").extract[Int]
     val hits = json \ "hits" \ "hits"
-    val res = Range(0, total).map(i => compact( (hits(i) \ "_source") ))
+    val res = Range(0, total).map{i =>
+      compact( hits(i) \ "_source")}
 
-    (total, res)
+
+    val pippo = s"""
+       { "total" : $total},
+       {"items" : [$res] }
+     """.stripMargin
+    pippo
   }
 
 
-  def getDensity(lat: Double, lon: Double, distance: Int = 1200): Int = getNeighbors(lat, lon, distance)
+  def getDensity(lat: Double, lon: Double, distance: Int = 1200, sedeLegale: Boolean = false): Int = getNeighbors(lat, lon, distance)
 
-  def getEntropy(lat: Double, lon: Double, distance: Int = 1200): Double = {
+  def getEntropy(lat: Double, lon: Double, distance: Int = 1200, sedeLegale: Boolean = false): Double = {
     //val density: Int = getDensity(lat,lon, distance)
     val cat: (Int, Seq[(String, Int)]) = getNeighborsGroupByAteco(lat, lon, distance)
     Geofunctions.entropy(cat._1, cat._2)
   }
 
-  def getCompetiveness(lat: Double, lon: Double, distance: Int = 1200, category: String): Double = {
+  def getCompetiveness(lat: Double, lon: Double, distance: Int = 1200, category: String, sedeLegale: Boolean = false): Double = {
     val query = s"""{
    "size" : 0,
    "query":{
       "match": {
-         "codiceAtecoP" : $category
+         "codiceAtecoP" : $category,
+         "isSedeLegale" : $sedeLegale
       }
    },
    "aggs":{

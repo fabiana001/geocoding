@@ -1,0 +1,54 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b9d6437f99d81613b76b0077a504804f2491220ae071901318ae114a36c01207" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="34" provincia="BA" via="SAN FRANCESCO D'ASSISI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="05/12/1994">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Altre attivita' di supporto connesse ai trasporti" c-attivita="52.29" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="TRASPORTO MARITTIMO E PER VIE D'ACQUA" c-attivita="50" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="TRASPORTO AEREO" c-attivita="51" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Attivita' delle agenzie di viaggio e dei tour operator" c-attivita="79.1" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CON">CONSIGLIERE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="4" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMD">AMMINISTRATORE DELEGATO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="PRE">PRESIDENTE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="2" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="4">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CUF">CURATORE FALLIMENTARE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

@@ -1,0 +1,22 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bafc37886ebf8541f747e13e26ef15bb7dba455b0c1862ffa0f1dfc3beca7b48" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70124" comune="BARI" n-civico="11" provincia="BA" via="SALANDRA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="15/04/1980">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Gestione di impianti sportivi" c-attivita="93.11" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="5">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

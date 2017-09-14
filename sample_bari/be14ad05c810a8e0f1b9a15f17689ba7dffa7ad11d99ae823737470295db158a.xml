@@ -1,0 +1,22 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="be14ad05c810a8e0f1b9a15f17689ba7dffa7ad11d99ae823737470295db158a" c-fonte="RI" descrizione-tipo-impresa="Altra forma" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="AL" tipo-soggetto="I">
+        <forma-giuridica c="DI">IMPRESA INDIVIDUALE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70125" comune="BARI" n-civico="53" provincia="BA" via="IACINI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="20/09/2004">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Coltivazioni di colture permanenti" c-attivita="01.2" c-importanza="P" dt-inizio="20/09/2004" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="TIT">TITOLARE FIRMATARIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

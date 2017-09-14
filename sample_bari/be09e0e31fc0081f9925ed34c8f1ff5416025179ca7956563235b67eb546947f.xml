@@ -1,0 +1,97 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="be09e0e31fc0081f9925ed34c8f1ff5416025179ca7956563235b67eb546947f" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione altre-indicazioni="ZONA INDUSTRIALE" c-comune="006" c-toponimo="VLE" cap="70132" comune="BARI" n-civico="8" provincia="BA" via="LINDEMANN" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="18/10/1978">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Trattamento e rivestimento dei metalli" c-attivita="25.61" c-importanza="P" dt-inizio="18/10/1978" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="15">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CON">CONSIGLIERE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="PCA">PRESIDENTE CONSIGLIO AMMINISTRAZIONE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="15" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CON">CONSIGLIERE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMD">AMMINISTRATORE DELEGATO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="21" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="32">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CON">CONSIGLIERE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="21">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="PCS">PRESIDENTE DEL COLLEGIO SINDACALE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="22">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIE">SINDACO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="27">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIE">SINDACO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="28">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIS">SINDACO SUPPLENTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="31">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIS">SINDACO SUPPLENTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

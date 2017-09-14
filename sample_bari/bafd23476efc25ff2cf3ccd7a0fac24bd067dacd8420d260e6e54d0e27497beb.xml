@@ -1,0 +1,23 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bafd23476efc25ff2cf3ccd7a0fac24bd067dacd8420d260e6e54d0e27497beb" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="44/8" provincia="BA" via="OMODEO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="10/01/1979">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Commercio all'ingrosso di abbigliamento e accessori" c-attivita="46.42.1" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

@@ -1,0 +1,39 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="be955a4fbd67f9faee1353b60132ef63b33d4b1adcba13104e414220c5c99805" c-fonte="RI" descrizione-tipo-impresa="Societa' di persone" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SP" tipo-soggetto="I">
+        <forma-giuridica c="AS">SOCIETA' IN ACCOMANDITA SEMPLICE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70128" comune="BARI" frazione="PALESE" n-civico="26/B" provincia="BA" via="NAZIONALE  3 BIS" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="30/07/1987">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Agenti e rappresentanti di elettronica di consumo audio e video, materiale elettrico per uso domestico" c-attivita="46.18.21" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="&quot; Commercio all'ingrosso di articoli per l'illuminazione" c-attivita="46.47.3" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio al dettaglio di ferramenta, vernici, vetro piano e materiale elettrico e termoidraulico" c-attivita="47.52.1" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOR">SOCIO ACCOMANDATARIO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="3" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOC">SOCIO ACCOMANDANTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

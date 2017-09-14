@@ -1,0 +1,36 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b6b304cb8660fe8a53c396219bc3cd351dab3bc1f31acba62146adc7c34c9af0" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SU">SOCIETA' A RESPONSABILITA' LIMITATA CON UNICO SOCIO</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70123" comune="BARI" n-civico="19" provincia="BA" via="FRANCESCO BABUDRI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="04/05/1989">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Costruzione di edifici residenziali e non residenziali" c-attivita="41.2" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Costruzione di strade, autostrade e piste aeroportuali" c-attivita="42.11" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOU">SOCIO UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="20/11/1991" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70125" comune="BARI" n-civico="29" provincia="BA" via="F. BABUDRI" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="20/11/1991" progressivo="2" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70123" comune="BARI" n-civico="43/D" provincia="BA" via="BABUDRI" />
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

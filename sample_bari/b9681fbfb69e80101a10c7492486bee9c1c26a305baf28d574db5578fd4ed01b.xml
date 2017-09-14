@@ -1,0 +1,55 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b9681fbfb69e80101a10c7492486bee9c1c26a305baf28d574db5578fd4ed01b" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="LGO" cap="70121" comune="BARI" n-civico="3" provincia="BA" via="MONSIGNOR CURI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="27/03/1997">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Altre attivita' di consulenza imprenditoriale e altra consulenza amministrativo-gestionale e pianificazione aziendale" c-attivita="70.22.09" c-importanza="P" dt-inizio="27/03/1997" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="16/02/1998" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" cap="70012" comune="BARI" frazione="CARBONARA" n-civico="4" provincia="BA" via="V. CROCIFISSO" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Elaborazione dati" c-attivita="63.11.1" c-importanza="P" dt-inizio="16/02/1998" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="16/02/1998" progressivo="2" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="030" cap="70043" comune="MONOPOLI" n-civico="86" provincia="BA" via="V.BIXIO" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Elaborazione dati" c-attivita="63.11.1" c-importanza="P" dt-inizio="16/02/1998" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="16/02/1998" progressivo="3" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="025" c-toponimo="VIA" cap="70010" comune="LOCOROTONDO" n-civico="11" provincia="BA" via="LEONARDO SCIASCIA" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Elaborazione dati" c-attivita="63.11.1" c-importanza="P" dt-inizio="16/02/1998" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="02/05/1999" progressivo="5" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="38" provincia="BA" via="F.LLI ROSSELLI" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Elaborazione dati" c-attivita="63.11.1" c-importanza="P" dt-inizio="02/05/1999" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="16/02/1998" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="005" c-toponimo="VIA" cap="72014" comune="CISTERNINO" n-civico="9" provincia="BR" via="TARANTINI" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Elaborazione dati" c-attivita="63.11.1" c-importanza="P" dt-inizio="16/02/1998" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

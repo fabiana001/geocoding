@@ -1,0 +1,22 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bec97ccffba972816a67534b0fbadf99d4aadbb8b0708d50192e4cfd8a53b719" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="45/B" provincia="BA" via="BOZZI" />
+    </dati-identificativi>
+    <info-attivita>
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Attivita' di distribuzione cinematografica, di video e di programmi televisivi" c-attivita="59.13" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

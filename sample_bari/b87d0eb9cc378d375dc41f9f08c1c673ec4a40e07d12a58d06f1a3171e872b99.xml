@@ -1,0 +1,28 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b87d0eb9cc378d375dc41f9f08c1c673ec4a40e07d12a58d06f1a3171e872b99" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70126" comune="BARI" n-civico="79" provincia="BA" via="AMENDOLA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="20/04/1989">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Produzione di software non connesso all'edizione" c-attivita="62.01" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="3" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="20/11/1990" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70126" comune="BARI" n-civico="105" provincia="BA" via="AMENDOLA" />
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

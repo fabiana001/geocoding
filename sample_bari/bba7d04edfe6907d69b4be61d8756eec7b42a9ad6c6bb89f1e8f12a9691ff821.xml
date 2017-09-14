@@ -1,0 +1,23 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bba7d04edfe6907d69b4be61d8756eec7b42a9ad6c6bb89f1e8f12a9691ff821" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70121" comune="BARI" n-civico="15/A" provincia="BA" via="ALESSANDRO MARIA CALEFATI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="26/03/1998">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Attivita' di mediazione immobiliare" c-attivita="68.31" c-importanza="P" dt-inizio="26/03/1998" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

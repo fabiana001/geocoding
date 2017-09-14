@@ -11,6 +11,8 @@ import scala.util.{Failure, Success, Try}
   */
 object GisGraphyGeocoding extends Geocoding {
 
+  val delay = 6500
+
   val logger = LoggerFactory.getLogger(GisGraphyGeocoding.getClass)
   override def getNameService: String = "gisgraphapis"
 
@@ -26,7 +28,8 @@ object GisGraphyGeocoding extends Geocoding {
     logger.info(url)
 
     connect(url, connectTimeout,readTimeout) match {
-      case Success(data) => extractCoordinates(data, citta).map( x => (address, (x._1, x._2)))
+      case Success(data) =>
+        extractCoordinates(data, citta).map( x => (address, (x._1, x._2)))
       case Failure(ex) => Failure(ex)
     }
 
@@ -37,7 +40,7 @@ object GisGraphyGeocoding extends Geocoding {
 
     val json: JValue = parse(response)
     val res = (json \ "result")(0)
-    val extractedCity = (res \ "state").extract[String]
+    val extractedCity = (res \ "state").extractOpt[String].getOrElse("ERROR COUNTRY")
     val lat = (res \ "lat").toOption.getOrElse(JDouble(-1)).extract[Double]
     val lng = (res \ "lng").toOption.getOrElse(JDouble(-1)).extract[Double]
 

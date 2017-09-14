@@ -13,6 +13,8 @@ import scala.util.{Failure, Success, Try}
   */
 trait Geocoding {
 
+  val delay: Int
+
   def getNameService: String
 
   def geocode(toponimo: String,

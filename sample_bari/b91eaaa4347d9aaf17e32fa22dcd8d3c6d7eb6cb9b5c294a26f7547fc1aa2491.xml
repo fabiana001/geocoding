@@ -1,0 +1,24 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b91eaaa4347d9aaf17e32fa22dcd8d3c6d7eb6cb9b5c294a26f7547fc1aa2491" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70121" comune="BARI" n-civico="18" provincia="BA" via="M.SIGNORILE" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="20/12/1991">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Costruzione di edifici residenziali e non residenziali" c-attivita="41.2" c-importanza="P" dt-inizio="20/12/1991" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Costruzione di strade, autostrade e piste aeroportuali" c-attivita="42.11" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

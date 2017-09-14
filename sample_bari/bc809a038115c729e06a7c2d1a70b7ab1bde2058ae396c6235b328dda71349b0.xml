@@ -1,0 +1,24 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bc809a038115c729e06a7c2d1a70b7ab1bde2058ae396c6235b328dda71349b0" c-fonte="RI" descrizione-tipo-impresa="Altra forma" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="AL" tipo-soggetto="I">
+        <forma-giuridica c="DI">IMPRESA INDIVIDUALE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70125" comune="BARI" n-civico="318/A" provincia="BA" via="A.DE GASPERI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="05/02/2001">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Agenti e rappresentanti di vestiario ed accessori di abbigliamento" c-attivita="46.16.01" c-importanza="P" dt-inizio="05/02/2001" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Confezione di altro abbigliamento esterno" c-attivita="14.13" c-importanza="S" dt-inizio="05/02/2001" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Confezioni varie e accessori per l'abbigliamento" c-attivita="14.19.1" c-importanza="S" dt-inizio="05/02/2001" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="TIT">TITOLARE FIRMATARIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

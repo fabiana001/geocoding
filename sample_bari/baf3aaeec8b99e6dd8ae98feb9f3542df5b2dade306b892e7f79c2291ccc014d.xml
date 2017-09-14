@@ -1,0 +1,24 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="baf3aaeec8b99e6dd8ae98feb9f3542df5b2dade306b892e7f79c2291ccc014d" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70100" comune="BARI" n-civico="6/A" provincia="BA" via="SONNINO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="24/04/1985">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Fabbricazione di imballaggi in legno" c-attivita="16.24" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio all'ingrosso di vari prodotti di consumo non alimentare nca" c-attivita="46.49.9" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

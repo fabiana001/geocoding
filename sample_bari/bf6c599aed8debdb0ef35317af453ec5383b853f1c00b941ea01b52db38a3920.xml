@@ -1,0 +1,26 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bf6c599aed8debdb0ef35317af453ec5383b853f1c00b941ea01b52db38a3920" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70125" comune="BARI" n-civico="122" provincia="BA" via="PASUBIO" />
+    </dati-identificativi>
+    <info-attivita>
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Commercio al dettaglio di parti e accessori di autoveicoli" c-attivita="45.32" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio all'ingrosso di ferramenta, di apparecchi e accessori per impianti idraulici e di riscaldamento" c-attivita="46.74" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio all'ingrosso di apparecchi e accessori per impianti idraulici, di riscaldamento e di condizionamento" c-attivita="46.74.2" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio al dettaglio di ferramenta, vernici, vetro piano e materiali da costruzione" c-attivita="47.52" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio al dettaglio di mobili, di articoli per l'illuminazione e altri articoli per la casa" c-attivita="47.59" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

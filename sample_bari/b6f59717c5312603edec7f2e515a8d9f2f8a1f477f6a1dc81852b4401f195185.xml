@@ -1,0 +1,30 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b6f59717c5312603edec7f2e515a8d9f2f8a1f477f6a1dc81852b4401f195185" c-fonte="RI" descrizione-tipo-impresa="Altra forma" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="AL" tipo-soggetto="I">
+        <forma-giuridica c="DI">IMPRESA INDIVIDUALE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="PLE" cap="70132" comune="BARI" n-civico="INT. 3" provincia="BA" via="G. A. PUGLIESE PAL. H 1" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="25/11/1998">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Commercio all'ingrosso di articoli medicali ed ortopedici" c-attivita="46.46.3" c-importanza="P" dt-inizio="25/11/1998" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="TIT">TITOLARE FIRMATARIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="01/04/2002" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70125" comune="BARI" n-civico="11/H" provincia="BA" via="CONTE GIUSSO" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Commercio all'ingrosso di articoli medicali ed ortopedici" c-attivita="46.46.3" c-importanza="I" importanza="prevalente svolta dall'Impresa" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

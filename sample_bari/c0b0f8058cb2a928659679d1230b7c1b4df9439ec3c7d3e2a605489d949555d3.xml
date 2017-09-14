@@ -1,0 +1,24 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="c0b0f8058cb2a928659679d1230b7c1b4df9439ec3c7d3e2a605489d949555d3" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70123" comune="BARI" n-civico="21" provincia="BA" via="DELLA CARBONERIA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="12/03/1974">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Intermediari del commercio di mobili, articoli per la casa e ferramenta" c-attivita="46.15" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio al dettaglio in esercizi non specializzati di computer, periferiche, attrezzature per le telecomunicazioni, elettronica di consumo audio e video, elettrodomestici" c-attivita="47.19.2" c-importanza="S" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio al dettaglio di mobili per la casa" c-attivita="47.59.1" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

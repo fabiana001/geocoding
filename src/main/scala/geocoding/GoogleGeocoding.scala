@@ -2,10 +2,12 @@ package geocoding
 
 import java.math.BigInteger
 import java.net.{HttpURLConnection, URL}
+
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import com.typesafe.config.ConfigFactory
 import org.json4s.DefaultFormats
+import org.slf4j.LoggerFactory
 //import play.api.libs.json.Json
 
 import scala.util.{Failure, Try}
@@ -15,8 +17,11 @@ import scala.util.{Failure, Try}
   */
 object GoogleGeocoding extends Geocoding{
 
+  val delay = 7000
+
   val googleAccessToken = ConfigFactory.load().getString("geocoding.googleAccessToken")
 
+  val logger = LoggerFactory.getLogger(this.getClass)
 
   override def geocode(toponimo: String,
               via: String,
@@ -45,6 +50,7 @@ object GoogleGeocoding extends Geocoding{
       case 200 =>
         val inputStream = connection.getInputStream
         val content = scala.io.Source.fromInputStream(inputStream).mkString
+
         if (inputStream != null) inputStream.close()
         extractCoordinates(content).map(x => (address, (x._1, x._2)))
       case state => Failure(new RuntimeException(s"Http status code: $state"))

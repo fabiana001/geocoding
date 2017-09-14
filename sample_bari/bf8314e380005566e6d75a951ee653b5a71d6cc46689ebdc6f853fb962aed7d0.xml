@@ -1,0 +1,43 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bf8314e380005566e6d75a951ee653b5a71d6cc46689ebdc6f853fb962aed7d0" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="PZA" cap="70100" comune="BARI" frazione="PALESE" n-civico="18" provincia="BA" via="CAPITANEO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="07/09/1978">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Coltivazione di frutti oleosi" c-attivita="01.26" c-importanza="P" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="22/02/1984" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIC" cap="70100" comune="BARI" frazione="PALESE" n-civico="2" provincia="BA" via="III CAPITANEO" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="03/11/1986" progressivo="3" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" frazione="PALESE" n-civico="21" provincia="BA" via="CAPITANEO" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/10/1989" progressivo="4" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" frazione="PALESE" n-civico="10" provincia="BA" via="CAPITANEO" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Produzione di oli e grassi vegetali e animali" c-attivita="10.4" c-importanza="P" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="030" c-toponimo="VIA" cap="62010" comune="MONTELUPONE" n-civico="27/C" provincia="MC" via="CIALDINI," />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Minimercati ed altri esercizi non specializzati di alimentari vari" c-attivita="47.11.4" c-importanza="P" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

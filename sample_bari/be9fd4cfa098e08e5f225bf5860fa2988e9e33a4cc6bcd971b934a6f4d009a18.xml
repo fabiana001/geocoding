@@ -1,0 +1,41 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="be9fd4cfa098e08e5f225bf5860fa2988e9e33a4cc6bcd971b934a6f4d009a18" c-fonte="RI" descrizione-tipo-impresa="Societa' di persone" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SP" tipo-soggetto="I">
+        <forma-giuridica c="SN">SOCIETA' IN NOME COLLETTIVO</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70123" comune="BARI" n-civico="1" provincia="BA" via="TEN.CASALE Y FIGOROA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="01/06/1979">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Riparazione di impianti elettrici e di alimentazione per autoveicoli" c-attivita="45.20.3" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Riparazioni meccaniche di autoveicoli" c-attivita="45.20.1" c-importanza="C" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="COM">SOCIO</carica>
+                        <carica c-carica="AMM">AMMINISTRATORE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="COM">SOCIO</carica>
+                        <carica c-carica="AMM">AMMINISTRATORE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="1" provincia="BA" via="TEN.CASALE" />
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

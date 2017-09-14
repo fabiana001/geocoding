@@ -1,0 +1,36 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b7372382bda77ccbdd9f99bf212c7c6b39ac8f6bf67c85de8a06f8a2740cdf0a" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="STR" cap="70132" comune="BARI" n-civico="6" provincia="BA" via="PALUMBO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="13/11/1996">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Commercio al dettaglio di parti e accessori di autoveicoli" c-attivita="45.32" c-importanza="P" dt-inizio="13/11/1996" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio all'ingrosso e al dettaglio di parti e accessori per motocicli e ciclomotori" c-attivita="45.40.21" c-importanza="S" dt-inizio="13/11/1996" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Commercio all'ingrosso di prodotti petroliferi e lubrificanti per autotrazione, di combustibili per riscaldamento" c-attivita="46.71" c-importanza="S" dt-inizio="13/11/1996" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="09/06/1998" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="004" c-toponimo="VIA" cap="70022" comune="ALTAMURA" n-civico="27" provincia="BA" via="PARISI" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/09/2006" progressivo="2" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="STR" cap="70100" comune="BARI" n-civico="9" provincia="BA" via="PALUMBO" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Commercio al dettaglio di parti e accessori di autoveicoli" c-attivita="45.32" c-importanza="P" dt-inizio="01/09/2006" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

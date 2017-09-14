@@ -1,0 +1,53 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bd3186af7169d47035478f8c5edc6d80372c3b686bba8096d02209a9c5faf60a" c-fonte="RI" descrizione-tipo-impresa="Societa' di persone" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SP" tipo-soggetto="I">
+        <forma-giuridica c="SN">SOCIETA' IN NOME COLLETTIVO</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VLE" cap="70124" comune="BARI" n-civico="86" provincia="BA" via="JOHN FITZGERALD KENNEDY" />
+    </dati-identificativi>
+    <info-attivita>
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Costruzione di edifici residenziali e non residenziali" c-attivita="41.2" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="ATTIVITA' IMMOBILIARI" c-attivita="68" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOA">SOCIO AMMINISTRATORE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="3" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOA">SOCIO AMMINISTRATORE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="LI">LIQUIDATORE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="2" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="4">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="COM">SOCIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

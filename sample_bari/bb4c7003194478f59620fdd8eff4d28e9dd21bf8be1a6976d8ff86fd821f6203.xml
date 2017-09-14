@@ -1,0 +1,22 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bb4c7003194478f59620fdd8eff4d28e9dd21bf8be1a6976d8ff86fd821f6203" c-fonte="RI" descrizione-tipo-impresa="Altra forma" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="AL" tipo-soggetto="I">
+        <forma-giuridica c="DI">IMPRESA INDIVIDUALE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="LRE" cap="70127" comune="BARI" frazione="SANTO SPIRITO" n-civico="152" provincia="BA" via="C. COLOMBO" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="19/04/2006">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Commercio al dettaglio di utensili per la casa, di cristallerie e vasellame" c-attivita="47.59.2" c-importanza="P" dt-inizio="19/04/2006" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="TIT">TITOLARE FIRMATARIO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

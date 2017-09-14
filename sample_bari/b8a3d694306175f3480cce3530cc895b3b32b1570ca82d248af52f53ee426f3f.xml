@@ -1,0 +1,92 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="b8a3d694306175f3480cce3530cc895b3b32b1570ca82d248af52f53ee426f3f" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="AAA" cap="70123" comune="BARI" n-civico="6" provincia="BA" via="PIONIERI DEL COMMERCIO BARESE" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="18/03/1998">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Profilatura mediante formatura o piegatura a freddo" c-attivita="24.33.02" c-importanza="P" dt-inizio="18/03/1998" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                        <carica c-carica="DTD">DELEGATO AL RITIRO CAPITALE VERSATO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="PCS">PRESIDENTE DEL COLLEGIO SINDACALE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIE">SINDACO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="4">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIE">SINDACO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="5">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIS">SINDACO SUPPLENTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="6">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SIS">SINDACO SUPPLENTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="7">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CUF">CURATORE FALLIMENTARE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="22/12/2004" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="CNT" cap="70045" comune="BARI" frazione="SAN GIORGIO" n-civico="NC" provincia="BA" via="LAMBERTI" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Profilatura mediante formatura o piegatura a freddo" c-attivita="24.33.02" c-importanza="I" importanza="prevalente svolta dall'Impresa" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="29/06/2009" progressivo="2" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="011" c-toponimo="STR" cap="70032" comune="BITONTO" n-civico="SNC" provincia="BA" via="PROVINCIALE 231 KM 2" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Profilatura mediante formatura o piegatura a freddo" c-attivita="24.33.02" c-importanza="P" dt-inizio="11/01/2010" importanza="primaria Registro Imprese" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>

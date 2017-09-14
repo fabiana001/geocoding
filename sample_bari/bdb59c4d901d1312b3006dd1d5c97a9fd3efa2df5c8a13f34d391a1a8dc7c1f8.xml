@@ -1,0 +1,54 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bdb59c4d901d1312b3006dd1d5c97a9fd3efa2df5c8a13f34d391a1a8dc7c1f8" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70125" comune="BARI" n-civico="6" provincia="BA" via="TOMMASO SICILIANI" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="24/07/1979">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Compravendita di beni immobili effettuata su beni propri" c-attivita="68.1" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Costruzione di edifici residenziali e non residenziali" c-attivita="41.2" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="5">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMD">AMMINISTRATORE DELEGATO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="PCA">PRESIDENTE CONSIGLIO AMMINISTRAZIONE</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="2" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMD">AMMINISTRATORE DELEGATO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="1" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="4">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="CON">CONSIGLIERE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AMD">AMMINISTRATORE DELEGATO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="4" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

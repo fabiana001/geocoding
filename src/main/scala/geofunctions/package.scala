@@ -12,13 +12,13 @@ package object Geofunctions {
 
       val entropy = entropy1.sum
 
-    - entropy
+    Math.abs(entropy)
   }
 
   def competitiveness(total: Int, categories: Seq[(String, Int)], atecoCode: String): Double= {
     categories.find(_._1 == atecoCode).map(_._2.toDouble) match {
-      case None => -1
-      case Some(value)  => - (value / total)
+      case None => 0
+      case Some(value)  =>  (value / total)
     }
   }
 

@@ -1,0 +1,23 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bbb8cbdcdcbed550ee7e8efce21f5c8e595844df67d4ce3747c65118f513412e" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70121" comune="BARI" n-civico="127" provincia="BA" via="DALMAZIA" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="04/06/1975">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Gestione di teatri, sale da concerto e altre strutture artistiche" c-attivita="90.04" c-importanza="P" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Attivita' di proiezione cinematografica" c-attivita="59.14" c-importanza="S" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

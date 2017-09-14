@@ -1,0 +1,57 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bf94e623bdc90d2e6f0a901f4cf0d35a37c9b50023959b2514616d89ca3d42da" c-fonte="RI" descrizione-tipo-impresa="Societa' di capitale" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SC" tipo-soggetto="I">
+        <forma-giuridica c="SR">SOCIETA' A RESPONSABILITA' LIMITATA</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="PZA" cap="70121" comune="BARI" n-civico="30" provincia="BA" via="MERCANTILE" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="17/09/1999">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Costruzione di edifici residenziali e non residenziali" c-attivita="41.2" c-importanza="P" dt-inizio="17/09/1999" importanza="primaria Registro Imprese" />
+            <classificazione-ateco attivita="Installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione" c-attivita="43.2" c-importanza="S" dt-inizio="27/02/2003" importanza="secondaria Registro Imprese" />
+            <classificazione-ateco attivita="Altri lavori di costruzione e installazione nca" c-attivita="43.29.09" c-importanza="S" dt-inizio="27/02/2003" importanza="secondaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="PP">PROCURATORE SPECIALE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="DT">DIRETTORE TECNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="RTC">RESPONSABILE TECNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="AUN">AMMINISTRATORE UNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="4">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="DT">DIRETTORE TECNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="5">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="DT">DIRETTORE TECNICO</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+</blocchi-impresa>

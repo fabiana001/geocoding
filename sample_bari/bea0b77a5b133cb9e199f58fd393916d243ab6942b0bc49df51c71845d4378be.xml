@@ -1,0 +1,73 @@
+<blocchi-impresa>
+    <dati-identificativi c-fiscale="bea0b77a5b133cb9e199f58fd393916d243ab6942b0bc49df51c71845d4378be" c-fonte="RI" descrizione-tipo-impresa="Societa' di persone" descrizione-tipo-soggetto="Sede dell'impresa" fonte="Registro Imprese" tipo-impresa="SP" tipo-soggetto="I">
+        <forma-giuridica c="AS">SOCIETA' IN ACCOMANDITA SEMPLICE</forma-giuridica>
+        <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70121" comune="BARI" n-civico="148" provincia="BA" via="CAVOUR" />
+    </dati-identificativi>
+    <info-attivita dt-inizio-attivita-impresa="19/03/1992">
+        <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+            <classificazione-ateco attivita="Agenti di assicurazioni" c-attivita="66.22.02" c-importanza="P" dt-inizio="19/03/1992" importanza="primaria Registro Imprese" />
+        </classificazioni-ateco>
+    </info-attivita>
+    <persone-sede>
+        <persona progressivo="1">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOR">SOCIO ACCOMANDATARIO</carica>
+                    </cariche>
+                    <poteri-persona p-poteri="2" />
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="2">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOC">SOCIO ACCOMANDANTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+        <persona progressivo="3">
+            <atti-conferimento-cariche>
+                <atto-conferimento-cariche>
+                    <cariche>
+                        <carica c-carica="SOC">SOCIO ACCOMANDANTE</carica>
+                    </cariche>
+                </atto-conferimento-cariche>
+            </atti-conferimento-cariche>
+        </persona>
+    </persone-sede>
+    <localizzazioni>
+        <localizzazione c-tipo="UL" dt-apertura="18/11/1993" progressivo="1" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="007" c-toponimo="VIA" cap="70051" comune="BARLETTA" n-civico="53" provincia="BA" via="FERDINANDO D'ARAGONA" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/12/1997" progressivo="2" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70121" comune="BARI" n-civico="148" provincia="BA" via="CAVOUR" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/12/1997" progressivo="3" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VIA" cap="70100" comune="BARI" n-civico="26" provincia="BA" via="TANZI" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/12/1997" progressivo="4" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VLE" cap="70100" comune="BARI" n-civico="51" provincia="BA" via="LUIGI EINAUDI" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/06/1998" progressivo="5" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="VLE" cap="70100" comune="BARI" n-civico="128" provincia="BA" via="DELLA REPUBBLICA" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="05/11/1998" progressivo="6" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70100" comune="BARI" n-civico="143" provincia="BA" via="VITTORIO EMANUELE II INT.5" />
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="01/02/2010" progressivo="7" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="007" c-toponimo="VIA" cap="76121" comune="BARLETTA" n-civico="73" provincia="BA" via="BRIGATA BARLETTA" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Agenti di assicurazioni" c-attivita="66.22.02" c-importanza="I" importanza="prevalente svolta dall'Impresa" />
+            </classificazioni-ateco>
+        </localizzazione>
+        <localizzazione c-tipo="UL" dt-apertura="02/01/2012" progressivo="8" tipo="UNITA' LOCALE">
+            <indirizzo-localizzazione c-comune="006" c-toponimo="CSO" cap="70121" comune="BARI" n-civico="148" provincia="BA" via="C BENSO C DI CAVOUR" />
+            <classificazioni-ateco c-codifica="07" codifica="Classificazione ATECORI 2007">
+                <classificazione-ateco attivita="Agenti di assicurazioni" c-attivita="66.22.02" c-importanza="I" importanza="prevalente svolta dall'Impresa" />
+            </classificazioni-ateco>
+        </localizzazione>
+    </localizzazioni>
+</blocchi-impresa>
